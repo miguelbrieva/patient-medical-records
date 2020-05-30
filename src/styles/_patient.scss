@@ -1,0 +1,9 @@
+.patient {
+  border-bottom: 1px solid lighten($text-primary, 40%);
+  color: $text-primary;
+
+  &__text {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+}

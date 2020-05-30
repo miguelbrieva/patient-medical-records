@@ -1,0 +1,33 @@
+.records {
+  min-height: 100px;
+  padding-bottom: 50px;
+  .container-tight {
+    overflow-x: scroll;
+  }
+}
+
+.table {
+  overflow: hidden;
+  margin-top: 20px;
+  width: 100%;
+  white-space: nowrap;
+  border-collapse: collapse;
+  border-radius: 5px;
+  @media (min-width: 768px) {
+    margin-top: 40px;
+  }
+  th, td {
+    padding: 10px 5px;
+    text-align: center;
+  }
+  tr:nth-child(even) {
+    background-color: lighten($color-primary, 30%);
+  }
+  th {
+    background-color: $color-primary;
+    color: $color-whitest;
+  }
+  td {
+    color: $text-primary;
+  }
+}
